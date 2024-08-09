@@ -26,7 +26,7 @@ import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
 public class SmartHospitalGUI implements ActionListener{
-
+//
     private JTextField entry1, reply1;
     private JTextField entry2, reply2;
     private JTextField entry3, reply3;
@@ -137,8 +137,8 @@ public class SmartHospitalGUI implements ActionListener{
         panel.add(getPatientMonitoringPanel());
         panel.add(getRoomEnvironmentControlPanel());
         panel.add(getMedicationDispensingPanel());
-
-        frame.setSize(600, 300); // Frame size-ыг томсгосон
+ 
+        frame.setSize(600, 300);
         frame.add(panel);
         frame.pack();
         frame.setVisible(true);
